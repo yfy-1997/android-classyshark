@@ -1,22 +1,22 @@
 # ClassyShark
 
-### Introduction
+### 介绍
 
 ![alt text](https://github.com/borisf/classyshark-user-guide/blob/master/images/5%20ClassesDexData.png)
 
-ClassyShark is a standalone binary inspection tool for Android developers. It can reliably browse any Android executable and show important info such as class interfaces and members, dex counts and dependencies. ClassyShark supports multiple formats including libraries (.dex, .aar, .so), executables (.apk, .jar, .class) and all Android binary XMLs: AndroidManifest, resources, layouts etc.
+ClassyShark 是一个针对 Android 开发人员的独立二进制检查工具。它可以可靠地浏览任何 Android 可执行文件，并显示重要信息，如类接口和成员，dex 计数和依赖性。ClassyShark 支持多种格式，包括库(。德克斯。你知道吗。可执行文件。Apk.罚钱。类)和所有 Android 二进制 xml: AndroidManifest、资源、布局等。
 
-### Useful links
+### 相关连接
 * [User guide](https://github.com/borisf/classyshark-user-guide)
 * [Command-line reference](https://github.com/google/android-classyshark/blob/master/CommandLine.pdf)
 * Gradle [sample](https://github.com/google/android-classyshark/tree/master/Samples/SampleGradle)
 * [Vision and Strategy](https://docs.google.com/document/d/1sK_WNzHn_6Q1V_dohxrtk1tlsPXsi9cEVnIuYuVig0M/edit?usp=sharing)
 
-### Download
+### 下载
 To run, grab the [latest JAR](https://github.com/google/android-classyshark/releases)
 and run `java -jar ClassyShark.jar`.
 
-### Export data in text format
+### 以文本格式导出数据
 * [Exporter](https://medium.com/@BorisFarber/exporting-data-from-classyshark-e3cf3fe3fab8#.deec4nyjq)
 * API finder :construction: work in progress
 
@@ -32,7 +32,7 @@ and run `java -jar ClassyShark.jar`.
 
 If you're running Arch Linux you can install the latest [prebuilt jar from the AUR](https://aur.archlinux.org/packages/classyshark/).
 
-### Dependencies
+### 依赖
 * [dexlib2](https://github.com/JesusFreke/smali/tree/master/dexlib2) by jesusfreke
 * [guava](https://github.com/google/guava) by Google
 * [ASM](http://asm.ow2.org/) by OW2
